@@ -1,0 +1,28 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Results</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "container">
+    <div class="wrapper">
+        <form action="" method="GET" name="Login_Form" class="form-signin">       
+            <h3 class="form-signin-heading">Fibonacci Series</h3>
+              <hr class="colorgraph"><br>
+              
+              <input type="number" class="form-control" name="number" placeholder="enter number"  autofocus="" />
+             
+              <br/>
+                   <h2> Answer is {{result}}</h2>   
+                   <br/>
+              <button class="btn btn-lg btn-primary btn-block"   type="Submit">Find</button>            
+        </form>         
+    </div>
+</div>
+</body>
+</html>
