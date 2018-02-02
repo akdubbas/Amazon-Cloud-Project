@@ -2,7 +2,16 @@
 
 Amazon Web Services(AWS)
 
-Delpoyed  Ubuntu Server 16.04 LTS (HVM) 64-bit on Amazon EC2 intance AWS.
+Hosted Ubuntu WebServer 16.04 LTS (HVM) 64-bit on Amazon EC2 intance AWS, which provides HTTP and HTTPS application to operate on user entered data, and providing the result.
+
+The Web Application is hosted on Web Server.
+
+- Implemented a simple algorithm that takes a user input and returns a result that is derived from operating on that input
+- Provides a form to accept user input using the GET method.
+- Utilize one included file that is separate from the main application (such as a
+CSS stylesheet) 
+
+
 
 AIM: The Application takes the given input and finds the nth Fibonacci number in the series. When the user clicks on find button, the application displays the correct answer.
 
